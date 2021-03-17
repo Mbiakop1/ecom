@@ -5,6 +5,7 @@ import { Switch, Route,  } from 'react-router-dom';
 
 import   HatsPage from './pages/hatsPage/hatsPage.component';
 import ShopPage from './pages/shop/shop.component'
+import Header from './components/header/header.component';
 
 
 
@@ -14,6 +15,7 @@ import ShopPage from './pages/shop/shop.component'
 function App() {
   return (
     <div>
+    <Header/>
      <Switch>
      <Route exact path='/' component={HomePage}/>
      <Route  path='/hats' component={HatsPage}/>
