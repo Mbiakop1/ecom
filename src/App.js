@@ -1,5 +1,5 @@
 import './App.css';
-import React from 'react'
+import React from 'react';
 import HomePage from "./pages/homepage/homepage.component";
 import { Switch, Route, Redirect  } from 'react-router-dom';
 import { auth, createUserProfileDocument} from './firebase/firebase.utils';
