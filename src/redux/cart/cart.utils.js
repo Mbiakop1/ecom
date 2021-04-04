@@ -16,4 +16,3 @@ export const  addItemtoCart = (cartItems, cartItemToAdd) => {
           return[ ...cartItems, {...cartItemToAdd, quantity: 1}]
 
 }
-export default addItemtoCart;
