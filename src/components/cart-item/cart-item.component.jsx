@@ -10,7 +10,6 @@ const CartItem = ({ item: {imageUrl, price, name, quantity }}) => (
    <span className='price'>{quantity} * ${price}</span>
 </div>
 </div>
-
 )
 
 export default CartItem;
