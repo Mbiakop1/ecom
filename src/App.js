@@ -5,7 +5,6 @@ import { Switch, Route, Redirect  } from 'react-router-dom';
 import { auth, createUserProfileDocument} from './firebase/firebase.utils';
 import { connect } from 'react-redux';
 
-import   HatsPage from './pages/hatsPage/hatsPage.component';
 import ShopPage from './pages/shop/shop.component'
 import Header from './components/header/header.component';
 
@@ -67,7 +66,6 @@ class App extends React.Component {
         }
       />
 
-     <Route  path='/hats' component={HatsPage}/>
      <Route  path='/shop' component={ShopPage}/>
      </Switch>
     </div>
